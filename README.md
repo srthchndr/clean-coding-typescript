@@ -13,6 +13,9 @@ I really like one quote by the author on maintaining the application by infering
 Below are some principles mentioned in the book.
 ## 1. Meaningful Names
 
+Naming is the integral part of coding, as a developers we come up with at least one new name everytime we code. We name variables, functions, classes, arguments, packages and so on. Since most of our code starts with naming, it should be done well to make the code readable. Let us see few simple ways to name different things in our code.
+
+- Use of Intention Reve
 
 
 
