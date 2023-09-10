@@ -15,7 +15,50 @@ Below are some principles mentioned in the book.
 
 Naming is the integral part of coding, as a developers we come up with at least one new name everytime we code. We name variables, functions, classes, arguments, packages and so on. Since most of our code starts with naming, it should be done well to make the code readable. Let us see few simple ways to name different things in our code.
 
-- Use of Intention Reve
+### Use of meaningful and intention revealing names
+
+Names we use in code should be self explanatory, they should provide the context of what that variable, function or class is supposed to do without any comments.
+
+**Bad:**
+```ts
+class A;
+function a(x: string);
+const x;
+```
+
+**Good:**
+```ts
+class Employee;
+function getRole(employeeId: string): string {};
+const dateOfJoining;
+```
+
+### Use pronounceable and searchable names 
+
+Using pronounceable names will help developers understand the context easily and will be easier for someone new to use those variables or functions while coding and it will be easier for them to search them from anywhere in the codebase.
+
+**Bad:**
+```ts
+function dte2mth(dt: Date) {
+  return dt.getMonth();
+}
+const mnth;
+```
+
+**Good:**
+```ts
+function dateToMonth(date: Date) {
+  return date.getMonth();
+}
+const month;
+```
+
+
+
+
+
+
+
 
 
 
